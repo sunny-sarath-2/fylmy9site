@@ -16,9 +16,9 @@ class Footer extends Component {
                   <img src="images/foo-logo.png" alt="" />
                 </a>
                 <p>
-                  Vissugadu is an online information related to films,
-                  television programs, and streaming content online – including
-                  cast and critical reviews, and ratings.
+                  Fylmy9 is an online information related to films, television
+                  programs, and streaming content online – including cast and
+                  critical reviews, and ratings.
                 </p>
                 <div className="footer-nl-area">
                   <form action="#" method="post">
@@ -164,10 +164,7 @@ class Footer extends Component {
                 <p className="copywrite-text">
                   Copyright &copy;
                   <script>document.write(new Date().getFullYear());</script>
-                  All rights reserved by -
-                  <a href="#" target="_blank">
-                    Vissugadu
-                  </a>
+                  All rights reserved by -<a href="#">Fylmy9</a>
                 </p>
               </div>
               <div className="col-12 col-sm-6">
