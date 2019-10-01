@@ -5,7 +5,7 @@ import { News } from "./pages";
 const Routes = props => {
   return (
     <Switch>
-      <Route exact path="/" component={News} />
+      <Route exact path="*" component={News} />
     </Switch>
   );
 };

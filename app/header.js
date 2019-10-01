@@ -44,8 +44,12 @@ class Header extends Component {
               <div className="col-12 col-md-5">
                 <div className="top-meta-data d-flex align-items-center justify-content-end">
                   <div className="top-search-area">
-                    <form action="index.html" method="post">
-                      <input type="search" name="top-search" id="topSearch" />
+                    <form
+                      onSubmit={e => {
+                        e.preventDefault();
+                      }}
+                    >
+                      <input type="search" id="topSearch" />
                       <button type="submit" className="btn">
                         <i className="fa fa-search" aria-hidden="true"></i>
                       </button>

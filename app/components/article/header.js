@@ -1,4 +1,5 @@
 import React from "react";
+import moment from "moment";
 
 const Header = props => {
   return (
@@ -26,7 +27,8 @@ const Header = props => {
           </li>
         </ul>
       </h5>
-      <h4>{props.date}</h4>
+      {console.log()}
+      <h4>{moment(props.date).format("MMMM Do YYYY h:mm a")}</h4>
     </section>
   );
 };
