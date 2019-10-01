@@ -162,8 +162,8 @@ class Footer extends Component {
             <div className="row align-items-center">
               <div className="col-12 col-sm-6">
                 <p className="copywrite-text">
-                  Copyright &copy;
-                  <script>document.write(new Date().getFullYear());</script>
+                  Copyright &copy; 2019
+                  {/* <script>document.write(new Date().getFullYear());</script> */}
                   All rights reserved by -<a href="#">Fylmy9</a>
                 </p>
               </div>
