@@ -41,6 +41,7 @@ function getUrl(url) {
   // const separator = url.includes("?") ? "&" : "?";
   //noinspection JSUnresolvedVariable
 
+  // return `http://localhost:8080${url}`;
   return `http://15.206.51.204:80${url}`;
 }
 
