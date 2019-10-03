@@ -27,7 +27,6 @@ const Header = props => {
           </li>
         </ul>
       </h5>
-      {console.log()}
       <h4>{moment(props.date).format("MMMM Do YYYY h:mm a")}</h4>
     </section>
   );
