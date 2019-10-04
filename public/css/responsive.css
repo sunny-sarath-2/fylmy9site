@@ -1,0 +1,198 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .is-sticky .classynav ul {
+    margin-left: 115px;
+    margin-right: 28px;
+  }
+  .is-sticky .classynav ul li a {
+    font-size: 22px !important;
+  }
+  .is-sticky form button {
+    top: 48px;
+    right: 40px;
+  }
+  .bottom-social-icons ul li .fb {
+    padding: 16px 32px 16px 32px;
+  }
+  .foo-logo img {
+    width: 15%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .news-title p {
+    display: none;
+  }
+  .top-social-info {
+    float: right;
+    left: 26rem;
+    top: -4px !important;
+    margin-right: 0px !important;
+    margin-bottom: 15px;
+  }
+  .top-social-info a {
+    font-size: 18px !important;
+  }
+  .news-title a {
+    font-size: 14px;
+  }
+  .main-logo {
+    top: 37px;
+    position: relative;
+  }
+  .classynav ul {
+    display: block;
+  }
+  .classynav ul li a {
+    height: 50px !important;
+    line-height: 50px !important;
+    font-size: 36px !important;
+    text-align: center;
+  }
+  .is-sticky .classynav ul li a {
+    font-size: 36px !important;
+    line-height: 60px !important;
+    height: 60px !important;
+  }
+  .is-sticky .classynav ul {
+    margin: 0 !important;
+    position: relative;
+    top: 3rem;
+  }
+  .is-sticky .sticky-search {
+    position: relative;
+    top: -23rem;
+    right: 7px;
+  }
+  .is-sticky .sticky-logo {
+    top: -35px;
+    position: relative;
+  }
+  .is-sticky form button {
+    top: 23px;
+    right: 20px;
+  }
+  .news-title {
+    top: 0px;
+  }
+  .bottom-social-icons ul li a {
+    padding: 10px 10px 10px 10px !important;
+  }
+  .bottom-social-icons ul li .fb .fa {
+    font-size: 18px !important;
+  }
+  .bottom-social-icons .fb span {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .news-title p {
+    display: none;
+  }
+  .top-social-info {
+    float: right;
+    top: 12px !important;
+    margin-right: 0px !important;
+  }
+  .top-social-info a {
+    font-size: 18px !important;
+  }
+  .news-title a {
+    font-size: 10px;
+  }
+  .main-logo {
+    top: 18px;
+    position: relative;
+  }
+  .main-logo img {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .top-search-area {
+    top: 19px;
+  }
+  .classy-nav-container {
+    z-index: auto;
+  }
+  .top-header-area .top-search-area form input {
+    width: 152px;
+    padding: 0 40px 0 10px;
+  }
+  .classynav ul {
+    display: block;
+  }
+  .classynav ul li a {
+    height: 50px !important;
+    line-height: 50px !important;
+    font-size: 36px !important;
+    text-align: center;
+  }
+  .is-sticky .classynav ul li a {
+    font-size: 36px !important;
+    line-height: 60px !important;
+    height: 60px !important;
+  }
+  .is-sticky .classynav ul {
+    margin: 0 !important;
+    position: relative;
+    top: 3rem;
+  }
+  .is-sticky .sticky-search {
+    position: relative;
+    top: -23rem;
+    right: 7px;
+  }
+  .is-sticky .sticky-logo {
+    top: -35px;
+    position: relative;
+  }
+  .sticky-logo img {
+    margin: 0;
+    left: 5px;
+    position: relative;
+  }
+  .is-sticky form button {
+    top: 23px;
+    right: 20px;
+  }
+  .news-title {
+    top: 10px;
+  }
+  .article-social {
+    float: none;
+  }
+  .article-header h4 {
+    padding: 15px 0 0 0;
+  }
+  .right-cont {
+    padding: 0 !important;
+    top: 0;
+  }
+  .bottom-social-icons {
+    padding: 0;
+  }
+  .bottom-social-icons ul li {
+    float: none;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+  .bottom-social-icons ul li a {
+    padding: 10px 66px 10px 66px !important;
+  }
+  .bottom-social-icons ul li .fb .fa {
+    font-size: 18px !important;
+  }
+  .bottom-social-icons .fb span {
+    font-size: 12px !important;
+  }
+  .tags a {
+    font-size: 11px;
+    padding: 7px;
+  }
+  .tags {
+    padding: 0;
+  }
+  .article-header h2 {
+    font-size: 22px;
+  }
+}

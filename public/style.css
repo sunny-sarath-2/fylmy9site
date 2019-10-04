@@ -678,7 +678,7 @@ input:focus {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-area .vizew-main-menu .classy-navbar {
-    height: 70px;
+    height: 90px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -716,9 +716,9 @@ input:focus {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-area .vizew-main-menu .classy-navbar .classynav ul li a {
-    height: 70px;
+    height: 90px;
     line-height: 70px;
-    font-size: 14px;
+    font-size: 32px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
