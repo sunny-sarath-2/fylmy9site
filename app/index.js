@@ -15,7 +15,6 @@ const Main = () => {
   );
 };
 const App = props => {
-  console.log(props);
   return (
     <div>
       <Header />

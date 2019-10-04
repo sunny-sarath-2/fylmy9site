@@ -7,7 +7,6 @@ import Tags from "./tags";
 
 const articke = props => {
   const { title, image, review_created_date, review, movie_tags } = props.news;
-  console.log(image);
   return (
     <div className="col-12 col-md-7 col-lg-8">
       <article>
