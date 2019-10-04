@@ -40,8 +40,8 @@ function getUrl(url) {
   // const timestamp = new Date().getTime();
   // const separator = url.includes("?") ? "&" : "?";
   //noinspection JSUnresolvedVariable
-  return `http://localhost:8081${url}`;
-  // return `http://15.206.51.204:80${url}`;
+  // return `http://localhost:8081${url}`;
+  return `http://15.206.51.204:80${url}`;
 }
 
 /**
