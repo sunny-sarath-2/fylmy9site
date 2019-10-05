@@ -20,12 +20,12 @@ class News extends Component {
       <section className="middle">
         <div className="container">
           {news.map((element, key) => {
-            return (
+            return element.reference ? (
               <div className="row" key={key}>
-                <Article news={element} />
+                <Article news={element.reference} />
                 <SideBlock />
               </div>
-            );
+            ) : null;
           })}
         </div>
       </section>
