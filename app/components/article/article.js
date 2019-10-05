@@ -5,11 +5,11 @@ import FooterSocial from "./footerSocial";
 import RelatedArticles from "./relatedArticles";
 import Tags from "./tags";
 
-const articke = props => {
+const article = props => {
   const {
     title,
     image,
-    review_created_date,
+    created_date,
     review,
     movie_tags,
     tags,
@@ -18,9 +18,9 @@ const articke = props => {
   return (
     <div className="col-12 col-md-7 col-lg-8">
       <article>
-        <Header title={title} date={review_created_date} />
+        <Header title={title} date={created_date} {...props} />
         {image ? (
-          <section class="article-pic">
+          <section className="article-pic">
             <img src={image} />
           </section>
         ) : null}
@@ -28,9 +28,10 @@ const articke = props => {
         <FooterSocial />
         <RelatedArticles />
         <Tags tags={movie_tags ? movie_tags : tags} />
+        {props.children}
       </article>
     </div>
   );
 };
 
-export default articke;
+export default article;

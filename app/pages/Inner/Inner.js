@@ -4,26 +4,30 @@ import SideBlock from "../../components/sideBlock";
 import API from "../../../services/API";
 import More from "../../components/more/more";
 
-class News extends Component {
+class Inner extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      news: []
+      data: []
     };
   }
   async componentDidMount() {
-    let result = await API.News();
-    this.setState({ news: result.data });
+    if (this.props.match.params.id) {
+      let result = await API.Single(this.props.match.params.id);
+      this.setState({ data: result.data });
+    } else this.props.history.push("/");
   }
   render() {
-    const { news } = this.state;
+    const { data } = this.state;
     return (
       <section className="middle">
         <div className="container">
-          {news.map((element, key) => {
+          {data.map((element, key) => {
             return element.reference ? (
               <div className="row" key={key}>
-                <Article news={element.reference} {...this.props} />
+                <Article news={element.reference} {...this.props}>
+                  <More />
+                </Article>
                 <SideBlock />
               </div>
             ) : null;
@@ -34,4 +38,4 @@ class News extends Component {
   }
 }
 
-export default News;
+export default Inner;

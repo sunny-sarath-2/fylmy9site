@@ -111,7 +111,11 @@ class Header extends Component {
                       </li>
                     </ul>
                     <div className="sticky-search">
-                      <form action="index.html" method="post">
+                      <form
+                        onSubmit={e => {
+                          e.preventDefault();
+                        }}
+                      >
                         <input type="search" name="top-search" id="topSearch" />
                         <button type="submit" className="btn">
                           <i className="fa fa-search" aria-hidden="true"></i>
