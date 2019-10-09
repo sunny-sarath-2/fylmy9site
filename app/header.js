@@ -32,7 +32,8 @@ class Header extends Component {
                   </div>
                   <div className="news-title">
                     <a href="#">Got a tip?</a>
-                    <p>EMAIL OR CALL (+91) 998-5883-9029</p>
+                    {/* <p>EMAIL OR CALL (+91) 998-5883-9029</p> */}
+                    <p>EMAIL OR CALL</p>
                   </div>
                 </div>
               </div>
@@ -106,8 +107,11 @@ class Header extends Component {
                       <li>
                         <NavLink to="/reviews">Reviews</NavLink>
                       </li>
-                      <li>
+                      {/* <li>
                         <NavLink to="/interviews">Interviews</NavLink>
+                      </li> */}
+                      <li>
+                        <NavLink to="/foreign-cinema">Foreign Cinema</NavLink>
                       </li>
                     </ul>
                     <div className="sticky-search">

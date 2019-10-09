@@ -127,13 +127,15 @@ class Footer extends Component {
               <div className="footer-widget mb-70">
                 <h6 className="widget-title">Our Address</h6>
                 <div className="contact-address">
-                  <p>
+                  {/* <p>
                     1-10, 42/2, Prakash Nagar, Begumpet,
                     <br />
                     Hyderabad, Telangana - 500016
                   </p>
                   <p>Phone: (+91) 998-5883-9029</p>
-                  <p>Email: viswanath.vundi@gmail.com</p>
+                  <p>Email: viswanath.vundi@gmail.com</p> */}
+                  <p>Madhapur, Hyderabad</p>
+                  <p>Telangana - 500016</p>
                 </div>
                 <div className="footer-social-area">
                   <a href="#" className="facebook">
@@ -164,7 +166,7 @@ class Footer extends Component {
                 <p className="copywrite-text">
                   Copyright &copy; 2019
                   {/* <script>document.write(new Date().getFullYear());</script> */}
-                  All rights reserved by -<a href="#">Fylmy9</a>
+                  All rights reserved by - <a href="#">Fylmy9</a>
                 </p>
               </div>
               <div className="col-12 col-sm-6">

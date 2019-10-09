@@ -4,13 +4,15 @@ import moment from "moment";
 const Header = props => {
   return (
     <section className="article-header">
-      <h2
-        onClick={() => {
-          props.history.push(`/${props.news._id}`);
-        }}
-      >
-        {props.title}
-      </h2>
+      <a href="#">
+        <h2
+          onClick={() => {
+            props.history.push(`/${props.news._id}`);
+          }}
+        >
+          {props.title}
+        </h2>
+      </a>
       <h5 className="article-social">
         <ul>
           <li>
